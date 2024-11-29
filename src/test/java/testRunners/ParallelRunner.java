@@ -20,6 +20,7 @@ import io.cucumber.testng.CucumberOptions;
 				     "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", // Allure Report integration
 				     "rerun:target/rerun.txt"
 				    },
+			monochrome=true,
 			dryRun=false,
 			//tags="@datadriven1"
 			tags= "@sanity"  // this will execute only sanity
